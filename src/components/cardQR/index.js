@@ -19,7 +19,7 @@ const CardQR = props => {
       <Card.Title style={{marginLeft:'60px', marginBottom:'5px', fontSize:'28px'}}>Highart</Card.Title>
       <Card.Img variant="top" style={{ width:'200px', backgroundColor:'#000000', padding:'10px'}} src={img_} />
       <Card.Body>
-        <Card.Title style={{marginLeft:'5%', fontSize:'22px', fontWeight:'bold', color:'rgba(25, 25, 51, 0.7)' }}>{name}</Card.Title>
+        <Card.Title style={{fontSize:'22px', fontWeight:'bold', color:'rgba(25, 25, 51, 0.7)' }}>{name}</Card.Title>
         <Card.Text style={{marginLeft:'5px', fontSize:'19px', color:'rgba(25, 25, 51, 0.7)' }}>
         {materials}
         </Card.Text>
