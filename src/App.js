@@ -12,16 +12,18 @@ function App() {
     <div style={{justifyContent:'center'}}>
     <Router>
         <Routes>
-          <Route exact path="/" element={<CardQR name='default'/>} />
-          <Route exact path="/parietal" element={<CardQR name='parietal' dimensions='215x190' materials='acrylic on linen' price='5000 €' />} />
-          <Route exact path="/iceberg" element={<CardQR name='iceberg' dimensions='187x147' materials='acrylic on canvas' price='5000 €' />} />
-          <Route exact path="/golden" element={<CardQR name='golden-fleece' dimensions='116x104' materials='acrylic , spray on linen' price='5000 €'/>} />
-          <Route exact path="/sliver" element={<CardQR name ='silver' dimensions='150x150' materials='acrylic, spray on canvas' price='1000 €'/>} />
-          <Route exact path="/green" element={<CardQR name='green' dimensions='150x150' materials='acrylic, spray on canvas' price='1000 €'/>} />
-          <Route exact path="/blue" element={<CardQR name='blue' dimensions='150x150' materials='acrylic, spray on canvas' price='1000 €'/>} />
-          <Route exact path="/atoms" element={<CardQR name='atoms' dimensions='200x143' materials='acrylic on canvas' price='5000 €'/>} />
-          <Route exact path="/energy" element={<CardQR name='energy' dimensions='187x144' materials='acrylic, spray on canvas' price='5000 €'/>} />
-          <Route exact path="/deepness" element={<CardQR name='deepness' dimensions='150x150' materials='acrylic on canvas' price='5000 €'/>} />
+          <Route exact path="/" element={<CardQR name='me'/>} />
+          <Route exact path="/parietal" element={<CardQR name='parietal' dimensions='215x190' materials='acrylic on linen' price='8000 €' />} />
+          <Route exact path="/iceberg" element={<CardQR name='iceberg' dimensions='187x147' materials='acrylic on canvas' price='8000 €' />} />
+          <Route exact path="/golden" element={<CardQR name='golden-fleece' dimensions='116x104' materials='acrylic , spray on linen' price='8000 €'/>} />
+          <Route exact path="/sliver" element={<CardQR name ='silver' dimensions='150x150' materials='acrylic, spray on canvas' price='2000 €'/>} />
+          <Route exact path="/green" element={<CardQR name='green' dimensions='150x150' materials='acrylic, spray on canvas' price='2000 €'/>} />
+          <Route exact path="/blue" element={<CardQR name='blue' dimensions='150x150' materials='acrylic, spray on canvas' price='2000 €'/>} />
+          <Route exact path="/atoms" element={<CardQR name='atoms' dimensions='200x143' materials='acrylic on canvas' price='8000 €'/>} />
+          <Route exact path="/energy" element={<CardQR name='energy' dimensions='187x144' materials='acrylic, spray on canvas' price='8000 €'/>} />
+          <Route exact path="/deepness" element={<CardQR name='deepness' dimensions='150x150' materials='acrylic on canvas' price='8000 €'/>} />
+          <Route exact path="/forest" element={<CardQR name='forest' dimensions='150x150' materials='acrylic on canvas' price='8000 €'/>} />
+          <Route exact path="/me" element={<CardQR name='me'/>} />
         </Routes>
       </Router>
     </div>
