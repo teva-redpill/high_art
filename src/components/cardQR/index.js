@@ -18,7 +18,8 @@ const CardQR = props => {
     <div style={{display:'flex !important',justifyContent:'center', fontFamily: "'Poppins', sans-serif", fontSize:'22px', marginTop:'20px', marginLeft:'40px'}}>
     {name === 'about_en' ? 
     <Card>
-    <Card.Title style={{marginLeft:'110px', fontSize:'50px', fontWeight:'bold', color:'#000000' }}><b>HIGH ART</b></Card.Title>
+    <Card.Title style={{marginLeft:'110px', fontSize:'45px', fontWeight:'bold', color:'#000000' }}><b>HIGH ART</b></Card.Title>
+    <Card.Img variant="top" style={{maxWidth:'400px',padding:'20px'}} src='/assets/img/me.jpeg' />
     <Card.Body>
     <Card.Text style={{justifyContent:'center !important', marginLeft:'20px', fontSize:'22px', color:'rgba(25, 25, 51, 0.7)', width:'400px', textAlign:'justify' }}>
        <p style={{textAlign:'justify'}}>L'art <b>abstrait</b> est une exploration des émotions à travers une forme pure et intacte.<br/>
