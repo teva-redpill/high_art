@@ -12,7 +12,7 @@ function App() {
     <div style={{justifyContent:'center'}}>
     <Router>
         <Routes>
-          <Route exact path="/" element={<CardQR name='me'/>} />
+          <Route exact path="/" element={<CardQR name='about_en'/>} />
           <Route exact path="/parietal" element={<CardQR name='parietal' dimensions='215x190' materials='acrylic on linen' price='8000 €' />} />
           <Route exact path="/iceberg" element={<CardQR name='iceberg' dimensions='187x147' materials='acrylic on canvas' price='7000 €' />} />
           <Route exact path="/golden" element={<CardQR name='golden-fleece' dimensions='116x104' materials='acrylic , spray on linen' price='2000 €'/>} />
@@ -23,7 +23,8 @@ function App() {
           <Route exact path="/energy" element={<CardQR name='energy' dimensions='187x144' materials='acrylic, spray on canvas' price='5700 €'/>} />
           <Route exact path="/deepness" element={<CardQR name='deepness' dimensions='150x150' materials='acrylic on canvas' price='5000 €'/>} />
           <Route exact path="/forest" element={<CardQR name='forest' dimensions='150x150' materials='acrylic on canvas' price='7000 €'/>} />
-          <Route exact path="/me" element={<CardQR name='me'/>} />
+          <Route exact path="/me" element={<CardQR name='about_en'/>} />
+          <Route exact path="/fr" element={<CardQR name='about_fr'/>} />
         </Routes>
       </Router>
     </div>
