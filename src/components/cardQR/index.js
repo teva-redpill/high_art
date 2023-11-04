@@ -22,13 +22,19 @@ const CardQR = props => {
     <Card.Img variant="top" style={{maxWidth:'400px',padding:'20px'}} src='/assets/img/me.jpeg' />
     <Card.Body>
       <Card.Text style={{justifyContent:'center !important', marginLeft:'20px', fontSize:'22px', color:'rgba(25, 25, 51, 0.7)', width:'400px', textAlign:'justify' }}>
-        <p style={{textAlign:'justify'}}>artist whose creative projects revolves around abstracts, presented in a contemporary manner.<br/>
-Minimalism, volume, textures, big format of canvas and linens.<br/>
-Art created by the emotions and energy.
+        <p style={{textAlign:'justify'}}><b>Abstract</b> art is an exploration of emotions through pure, unadulterated form.<br/>
+        We delve into the artist capacity to distill feelings into the most essential shapes and colors, creating language of the <b>heart and soul.</b><br/>
 </p>
       <p style={{textAlign:'justify'}}>
-Artist worked like  a fashion model in Europe and Asia ,  study at the fashion school - Marangoni in Milan. Always has been interested about different variety or creations.
-<br/>Nowadays artist live in Paris.</p>
+        The very core of these arts pulsates with <b>vitality</b> of <b>raw emotions</b> and <b>boundless energy</b><br/>
+      <b>Minimalism, acrylic, volume, textures, grand canvases, and linens</b> shape craft.
+      </p>
+<p style={{textAlign:'justify'}}>
+Before artist worked as a fashion model and study in fashion school of Marangoni in Milan.
+</p>
+<p>
+Nowadays artist lives in Paris, a city where art, fashion, and creativity intertwine together.
+</p>
       </Card.Text>
     </Card.Body>
   </Card>
