@@ -13,7 +13,7 @@ function App() {
     <Router>
         <Routes>
           <Route exact path="/" element={<CardQR name='me'/>} />
-          <Route exact path="/parietal" element={<CardQR name='parietal' dimensions='215x190' materials='acrylic on linen' price='7700 €' />} />
+          <Route exact path="/parietal" element={<CardQR name='parietal' dimensions='215x190' materials='acrylic on linen' price='8000 €' />} />
           <Route exact path="/iceberg" element={<CardQR name='iceberg' dimensions='187x147' materials='acrylic on canvas' price='7000 €' />} />
           <Route exact path="/golden" element={<CardQR name='golden-fleece' dimensions='116x104' materials='acrylic , spray on linen' price='2000 €'/>} />
           <Route exact path="/sliver" element={<CardQR name ='silver' dimensions='150x150' materials='acrylic, spray on canvas' price='1700 €'/>} />
