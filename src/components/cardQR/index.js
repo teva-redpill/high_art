@@ -19,8 +19,23 @@ const CardQR = props => {
     {name === 'about_en' ? 
     <Card>
     <Card.Title style={{marginLeft:'110px', fontSize:'50px', fontWeight:'bold', color:'#000000' }}><b>HIGH ART</b></Card.Title>
-    <Card.Img variant="top" style={{maxWidth:'400px',padding:'20px'}} src='/assets/img/me.jpeg' />
     <Card.Body>
+    <Card.Text style={{justifyContent:'center !important', marginLeft:'20px', fontSize:'22px', color:'rgba(25, 25, 51, 0.7)', width:'400px', textAlign:'justify' }}>
+       <p style={{textAlign:'justify'}}>L'art <b>abstrait</b> est une exploration des émotions à travers une forme pure et intacte.<br/>
+       Nous explorons la capacité de l'artiste à distiller les sentiments dans les formes et les couleurs les plus essentielles, créant ainsi <b>le langage du cœur et de l'âme.</b><br/>
+</p>
+     <p style={{textAlign:'justify'}}>
+     L'esprit de ces arts vibre de <b>vitalité</b>, d’émotions brutes et d’une énergie illimitée.
+     Le  <b>minimalisme, l'acrylique, le volume, les textures, les grandes toiles et le lin </b> façonnent ces oeuvres.
+     </p>
+<p style={{textAlign:'justify'}}>
+Elle a travaillé comme mannequin et étudié à l'école de mode de Marangoni à Milan.
+</p>
+<p>
+Elle vit aujourd'hui à Paris, une ville où l'art, la mode et la créativité s'entremêlent.
+</p> <br/><br/>
+     </Card.Text>
+     
       <Card.Text style={{justifyContent:'center !important', marginLeft:'20px', fontSize:'22px', color:'rgba(25, 25, 51, 0.7)', width:'400px', textAlign:'justify' }}>
         <p style={{textAlign:'justify'}}><b>Abstract</b> art is an exploration of emotions through pure, unadulterated form.<br/>
         We delve into the artist capacity to distill feelings into the most essential shapes and colors, creating language of the <b>heart and soul.</b><br/>
