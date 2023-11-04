@@ -20,7 +20,7 @@ function App() {
           <Route exact path="/green" element={<CardQR name='green' dimensions='150x150' materials='acrylic, spray on canvas' price='1700 €'/>} />
           <Route exact path="/blue" element={<CardQR name='blue' dimensions='150x150' materials='acrylic, spray on canvas' price='1700 €'/>} />
           <Route exact path="/atoms" element={<CardQR name='atoms' dimensions='200x143' materials='acrylic on canvas' price='5000 €'/>} />
-          <Route exact path="/energy" element={<CardQR name='black rock' dimensions='187x144' materials='acrylic, spray on canvas' price='5700 €'/>} />
+          <Route exact path="/energy" element={<CardQR name='black-rock' dimensions='187x144' materials='acrylic, spray on canvas' price='5700 €'/>} />
           <Route exact path="/deepness" element={<CardQR name='deepness' dimensions='150x150' materials='acrylic on canvas' price='5000 €'/>} />
           <Route exact path="/forest" element={<CardQR name='forest' dimensions='150x150' materials='acrylic on canvas' price='7000 €'/>} />
           <Route exact path="/me" element={<CardQR name='about_en'/>} />

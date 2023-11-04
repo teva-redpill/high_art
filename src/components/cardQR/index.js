@@ -12,7 +12,8 @@ const CardQR = props => {
     price,
   } = props;
 
-  const img_ = `/assets/img/${name}.jpg`
+  const name_ = name.replace('-',' ');
+  const img_ = `/assets/img/${name}.JPG`
   
   return (
     <div style={{display:'flex !important',justifyContent:'center', fontFamily: "'Poppins', sans-serif", fontSize:'22px', marginTop:'20px', marginLeft:'40px'}}>
@@ -80,7 +81,7 @@ Elle vit aujourd'hui à Paris, une ville où l'art, la mode et la créativité s
       <Card.Title style={{marginLeft:'23px',marginBottom:'10px', fontSize:'24px', fontWeight:'bold', color:'#000000' }}><b>HIGH ART</b></Card.Title>
       <Card.Img variant="top" style={{ width:'150px'}} src={img_} />
       <Card.Body style={{display:'flex !important'}}>
-        <Card.Title style={{justifyContent:'center', fontSize:'20px', fontWeight:'bold', color:'rgba(25, 25, 51, 0.7)', width:'150px', textAlign:'justify'}}>{name}</Card.Title>
+        <Card.Title style={{justifyContent:'center', fontSize:'20px', fontWeight:'bold', color:'rgba(25, 25, 51, 0.7)', width:'150px', textAlign:'justify'}}>{name_}</Card.Title>
         <Card.Text style={{justifyContent:'center', marginLeft:'0px', fontSize:'20px', color:'rgba(25, 25, 51, 0.7)', width:'150px', textAlign:'justify' }}>
         {materials}
         ({dimensions})
