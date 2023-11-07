@@ -77,12 +77,12 @@ Elle vit aujourd'hui à Paris, une ville où l'art, la mode et la créativité s
  </Card> :
     <Card>
       <Card.Body style={{display:'flex !important'}}>
-        <Card.Title style={{justifyContent:'center', fontSize:'24px', fontWeight:'bold', color:'rgba(25, 25, 51, 0.7)', width:'150px', textAlign:'justify'}}>{name_}</Card.Title>
-        <Card.Text style={{justifyContent:'center', marginLeft:'0px', fontSize:'20px', color:'rgba(25, 25, 51, 0.7)', width:'150px', textAlign:'justify' }}>
+        <Card.Title style={{justifyContent:'center', fontSize:'30px', fontWeight:'bold', color:'rgba(25, 25, 51, 0.7)', width:'150px', textAlign:'justify'}}>{name_}</Card.Title>
+        <Card.Text style={{justifyContent:'left', marginLeft:'0px', fontSize:'20px', color:'rgba(25, 25, 51, 0.7)', width:'150px', textAlign:'left' }}>
         {materials}
         ({dimensions})
         </Card.Text>
-        <Card.Text style={{marginLeft:'30px', marginTop:'-5px', fontSize:'25px' }}>
+        <Card.Text style={{marginLeft:'0px', marginTop:'-5px', fontSize:'25px' }}>
          {price}
         </Card.Text>
       </Card.Body>
