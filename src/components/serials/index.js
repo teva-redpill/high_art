@@ -24,6 +24,7 @@ const Serials = props => {
         </Card.Text>
         <Card.Text style={{justifyContent:'left', marginLeft:'0px', fontSize:'9px', color:'rgba(25, 25, 51, 0.7)', width:'150px', textAlign:'center' }}>
         @highart design
+        serial number : 08122022-1
         </Card.Text>
       </Card.Body>
     </Card>
@@ -43,6 +44,7 @@ const Serials = props => {
           </Card.Text>
           <Card.Text style={{justifyContent:'left', marginLeft:'0px', fontSize:'9px', color:'rgba(25, 25, 51, 0.7)', width:'150px', textAlign:'center' }}>
           @highart design
+          serial number : 08122022-2
           </Card.Text>
         </Card.Body>
       </Card>
