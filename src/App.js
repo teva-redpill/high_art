@@ -1,4 +1,5 @@
 import CardQR from './components/cardQR';
+import Serials from './components/serials';
 import * as React from "react";
 import {
   BrowserRouter as Router,
@@ -25,7 +26,9 @@ function App() {
           <Route exact path="/forest" element={<CardQR name='Forest' dimensions='150x150' materials='acrylic on canvas' price='7000 €'/>} />
           <Route exact path="/serenity" element={<CardQR name='Serenity' dimensions='200x150' materials='acrylic on canvas' price='7000 €'/>} />
           <Route exact path="/me" element={<CardQR name='about_en'/>} />
-          <Route exact path="/fr" element={<CardQR name='about_fr'/>} />
+          <Route exact path="/info" element={<CardQR name='about_en'/>} />
+          <Route exact path="/art/1" element={<Serials id='1'/>} />
+          <Route exact path="/art/2" element={<Serials id='2'/>} />
         </Routes>
       </Router>
     </div>
