@@ -1,5 +1,6 @@
 import Card from 'react-bootstrap/Card';
 import React from 'react';
+import About from '../about';
 
 // eslint-disable-next-line no-restricted-imports
 const Serials = props => {
@@ -9,7 +10,6 @@ const Serials = props => {
 
   if (id === '1') 
   return (
-
     <div style={{display:'flex !important',justifyContent:'center', fontFamily: "'Poppins', sans-serif", fontSize:'22px', marginTop:'20px', marginLeft:'40px', backgroundColor:'#EFEFEF', align:'center', width:'240px', padding:'15px'}}>
     <Card>
       <Card.Body style={{display:'flex !important'}}>
@@ -29,6 +29,7 @@ const Serials = props => {
         </Card.Text>
       </Card.Body>
     </Card>
+    <About lang='en'/>
     </div>
   )
   if (id === '2')
@@ -49,7 +50,7 @@ const Serials = props => {
           </Card.Text>
         </Card.Body>
       </Card>
-    
+      <About lang='en'/>
       </div>
     )
 }
